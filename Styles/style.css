@@ -142,3 +142,31 @@ figcaption {
     font-weight: 400;
     line-height: 30px;
 }
+
+.instahead>h1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 128px;
+}
+.instahead>p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 48px;
+}
+
+.instapics{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 128px;
+}
