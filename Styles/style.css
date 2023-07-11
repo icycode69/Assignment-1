@@ -78,7 +78,8 @@
     height: 538px;
 
 }
-.products{
+
+.products {
     padding-bottom: 150px;
 }
 
@@ -220,3 +221,50 @@ figcaption {
     line-height: normal;
     padding-left: 22px;
 }
+
+
+.footer>h1 {
+
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.footer>p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.copy {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: #111010;
+    width: 1920px;
+    height: 449px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+body {
+    overflow-x: hidden;
+    }
